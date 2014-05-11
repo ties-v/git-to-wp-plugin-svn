@@ -14,7 +14,8 @@ Configuration
 1. Copy the file `git-to-wp-plugin-svn.cmd` to your Git repository. It should be in the root (`my-awesome-plugin/git-to-wp-plugin-svn.cmd`)
 2. Open the file in a text editor
 3. Search for the following lines:
-```
+ 
+    ```
     ::::::::::::
     :: The configuration vars
     ::::::::::::
@@ -24,8 +25,9 @@ Configuration
     set mainfile=plugin.php
     ::Your WordPress SVN username
     set svnuser=TV productions
-```
-Replace `wp-test-plugin` with your plugin slug, `plugin.php` with the file of your plugin that contains
+    ```
+
+ Replace `wp-test-plugin` with your plugin slug, `plugin.php` with the file of your plugin that contains
 the plugin information (name, version, author) and replace `TV productions` with your WordPress SVN username.
 4. Save the file. You are now good to go!
 
